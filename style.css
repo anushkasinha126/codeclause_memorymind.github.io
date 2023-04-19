@@ -9,7 +9,7 @@ html {
     margin: 0;
 }
 .game {
-    position: absolute;
+    position:relative;
     top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -19,7 +19,7 @@ html {
     margin-bottom: 20px;
     float:left;
     margin-top: 10rem;
-    margin-right: 2rem;
+    margin-left: 15rem;
     padding: 3rem;
     display: flex;
 }
@@ -38,7 +38,6 @@ button {
     font-size: 18pt;
     font-weight: bold;
     text-align:center;
-    
 }
 button:hover{
     background-color: white;
@@ -68,6 +67,8 @@ button:hover{
     background-color: #000000;
     position: relative;
     float: right;
+    margin-right: 20rem;
+    margin-top: 1rem;
 }
 .board,
 .win {
@@ -141,16 +142,21 @@ button:hover{
     color: #7303c0;
 }
 
-img{
+.img{
     /* font-size: 70px;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
-    transform: scale(0.5);
+    transform: scale(1);
+    margin-top: 1rem;
+    margin-left: 25rem;
+
+    /* margin-left: 3rem; */
 }
 footer{
     background-color: rgb(92, 41, 7);
     text-align: center;
     color: aliceblue;
-    margin-top:45%;
+    margin-top:34rem;
     width: 100%;
+    /* margin-bottom: 0%; */
 }
